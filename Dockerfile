@@ -18,4 +18,4 @@ WORKDIR /genStr
 
 RUN pip3 install -U -r requirements.txt
 
-CMD ["bash", "run"]
+CMD python3 ["bash", "run"]
